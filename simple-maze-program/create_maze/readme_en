@@ -1,0 +1,13 @@
+create_maze() program portion will define a labyrienth in other say maze map for the server computer
+
+Main purpose of the program is creating the map.
+Created map will be written in a text document or transported into a database system.
+
+In next steps with created maps:
+
+-Server computer(program portion that simulation center) will directly use the map for executing the simulation.
+-Server computer will not send any coords about map so Raspberries will have no idea about map structure.
+-But any coord info about Raspberries will be sent over communication program. And server computer will display this information on the main screen.
+
+
+
