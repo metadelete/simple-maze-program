@@ -15,7 +15,3 @@ dependencies:
 	mkdir $(OUTPUT_PATH)
 clean:
 	rm -rf exe/
-save: 
-	cd
-	cp /home/meta/Desktop/INSIDEtheROOM/ANA_PROJE/project_maze_labyrienth/PROJE_KOD/ /media/meta/Other/UBUNTU/yedekler 
-	
