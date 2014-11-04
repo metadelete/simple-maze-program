@@ -1,0 +1,15 @@
+In order to compile and run it yourself you must have installed ncurses libraries for compiling process to do that:
+$ sudo apt-get install libncurses5-dev. 
+Go create_maze directory and simply run $ make. It will do the compiling process and your executable file will be 
+created in exe/ directory.
+usage of program:
+./run_program [y] [x]  where x and y stands for dimention of the maze
+
+Bu programı çalıştırabilmeniz için ncurses kütüphanesine ihtiyaç duyacaksınız. Kütüphaneyi edinebilmek için
+$ sudo apt-get install libncurses5-dev terminal(uç birim) ekranına giriniz.
+Daha sonra uç birim ekranında create_maze dosyasına gelip $ make komutunu yazınız. Çalıştırılabilir program
+exe/ klasöründe oluşturulacaktır. 
+Programın istenilen boyutta labirent üretebilmesi için 2 parametre girişine ihtiyaç duyar:
+./run_program [y] [x] vereceğiniz x ve y değerleri için istenilen boyutta labirent oluşturulmuş olur.
+
+
